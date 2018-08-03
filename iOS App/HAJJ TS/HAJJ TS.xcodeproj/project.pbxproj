@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06832C83B3778AE1F4F97E5E /* Pods_HAJJ_TSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D8BA5356244B9F23C885B1 /* Pods_HAJJ_TSTests.framework */; };
+		7B998ACDBE95D02D723B3615 /* Pods_HAJJ_TSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D6E03972484D322DA6C6D8 /* Pods_HAJJ_TSUITests.framework */; };
+		BDFBE7282112942200951EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBE7272112942200951EE6 /* AppDelegate.swift */; };
+		BDFBE72A2112942200951EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBE7292112942200951EE6 /* ViewController.swift */; };
+		BDFBE72D2112942200951EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFBE72B2112942200951EE6 /* Main.storyboard */; };
+		BDFBE72F2112942300951EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDFBE72E2112942300951EE6 /* Assets.xcassets */; };
+		BDFBE7322112942300951EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDFBE7302112942300951EE6 /* LaunchScreen.storyboard */; };
+		BDFBE73D2112942300951EE6 /* HAJJ_TSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBE73C2112942300951EE6 /* HAJJ_TSTests.swift */; };
+		BDFBE7482112942300951EE6 /* HAJJ_TSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBE7472112942300951EE6 /* HAJJ_TSUITests.swift */; };
+		BDFBE7582112965100951EE6 /* Background .png in Resources */ = {isa = PBXBuildFile; fileRef = BDFBE7572112965100951EE6 /* Background .png */; };
+		BDFBE75A2112968D00951EE6 /* Hajj Ts logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BDFBE7592112968D00951EE6 /* Hajj Ts logo.png */; };
+		BDFBE75C2112989F00951EE6 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBE75B2112989F00951EE6 /* AlertController.swift */; };
+		BDFBE75E21129E0400951EE6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDFBE75D21129E0400951EE6 /* GoogleService-Info.plist */; };
+		CFAD1E0C86DACD6281101BA0 /* Pods_HAJJ_TS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9943B94A062074466D6D6657 /* Pods_HAJJ_TS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDFBE7392112942300951EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFBE71C2112942200951EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFBE7232112942200951EE6;
+			remoteInfo = "HAJJ TS";
+		};
+		BDFBE7442112942300951EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDFBE71C2112942200951EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDFBE7232112942200951EE6;
+			remoteInfo = "HAJJ TS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F9076F8BDD2AE3184551736 /* Pods-HAJJ TSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAJJ TSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HAJJ TSTests/Pods-HAJJ TSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E07F21578C81712B957B0EE /* Pods-HAJJ TSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAJJ TSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HAJJ TSUITests/Pods-HAJJ TSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		708322F725A2AAD284410190 /* Pods-HAJJ TSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAJJ TSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HAJJ TSUITests/Pods-HAJJ TSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83297C1A07DD834F02C253FE /* Pods-HAJJ TS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAJJ TS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HAJJ TS/Pods-HAJJ TS.release.xcconfig"; sourceTree = "<group>"; };
+		9376F9A919FF61A32B569990 /* Pods-HAJJ TSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAJJ TSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HAJJ TSTests/Pods-HAJJ TSTests.release.xcconfig"; sourceTree = "<group>"; };
+		9943B94A062074466D6D6657 /* Pods_HAJJ_TS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAJJ_TS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFBE7242112942200951EE6 /* HAJJ TS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HAJJ TS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFBE7272112942200951EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDFBE7292112942200951EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDFBE72C2112942200951EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDFBE72E2112942300951EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDFBE7312112942300951EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDFBE7332112942300951EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFBE7382112942300951EE6 /* HAJJ TSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HAJJ TSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFBE73C2112942300951EE6 /* HAJJ_TSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAJJ_TSTests.swift; sourceTree = "<group>"; };
+		BDFBE73E2112942300951EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFBE7432112942300951EE6 /* HAJJ TSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HAJJ TSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFBE7472112942300951EE6 /* HAJJ_TSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAJJ_TSUITests.swift; sourceTree = "<group>"; };
+		BDFBE7492112942300951EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFBE7572112965100951EE6 /* Background .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background .png"; sourceTree = "<group>"; };
+		BDFBE7592112968D00951EE6 /* Hajj Ts logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hajj Ts logo.png"; sourceTree = "<group>"; };
+		BDFBE75B2112989F00951EE6 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		BDFBE75D21129E0400951EE6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2D6E03972484D322DA6C6D8 /* Pods_HAJJ_TSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAJJ_TSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B0B3B414A70B532E159798 /* Pods-HAJJ TS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HAJJ TS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HAJJ TS/Pods-HAJJ TS.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D8BA5356244B9F23C885B1 /* Pods_HAJJ_TSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HAJJ_TSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDFBE7212112942200951EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFAD1E0C86DACD6281101BA0 /* Pods_HAJJ_TS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFBE7352112942300951EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06832C83B3778AE1F4F97E5E /* Pods_HAJJ_TSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFBE7402112942300951EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B998ACDBE95D02D723B3615 /* Pods_HAJJ_TSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		751194AD913E661A0B2E9E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B0B3B414A70B532E159798 /* Pods-HAJJ TS.debug.xcconfig */,
+				83297C1A07DD834F02C253FE /* Pods-HAJJ TS.release.xcconfig */,
+				2F9076F8BDD2AE3184551736 /* Pods-HAJJ TSTests.debug.xcconfig */,
+				9376F9A919FF61A32B569990 /* Pods-HAJJ TSTests.release.xcconfig */,
+				6E07F21578C81712B957B0EE /* Pods-HAJJ TSUITests.debug.xcconfig */,
+				708322F725A2AAD284410190 /* Pods-HAJJ TSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83809D20CEF3A00F6706A14D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9943B94A062074466D6D6657 /* Pods_HAJJ_TS.framework */,
+				F2D8BA5356244B9F23C885B1 /* Pods_HAJJ_TSTests.framework */,
+				C2D6E03972484D322DA6C6D8 /* Pods_HAJJ_TSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDFBE71B2112942200951EE6 = {
+			isa = PBXGroup;
+			children = (
+				BDFBE7262112942200951EE6 /* HAJJ TS */,
+				BDFBE73B2112942300951EE6 /* HAJJ TSTests */,
+				BDFBE7462112942300951EE6 /* HAJJ TSUITests */,
+				BDFBE7252112942200951EE6 /* Products */,
+				751194AD913E661A0B2E9E1A /* Pods */,
+				83809D20CEF3A00F6706A14D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDFBE7252112942200951EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBE7242112942200951EE6 /* HAJJ TS.app */,
+				BDFBE7382112942300951EE6 /* HAJJ TSTests.xctest */,
+				BDFBE7432112942300951EE6 /* HAJJ TSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDFBE7262112942200951EE6 /* HAJJ TS */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBE7272112942200951EE6 /* AppDelegate.swift */,
+				BDFBE7292112942200951EE6 /* ViewController.swift */,
+				BDFBE75B2112989F00951EE6 /* AlertController.swift */,
+				BDFBE72B2112942200951EE6 /* Main.storyboard */,
+				BDFBE72E2112942300951EE6 /* Assets.xcassets */,
+				BDFBE7572112965100951EE6 /* Background .png */,
+				BDFBE7592112968D00951EE6 /* Hajj Ts logo.png */,
+				BDFBE7302112942300951EE6 /* LaunchScreen.storyboard */,
+				BDFBE75D21129E0400951EE6 /* GoogleService-Info.plist */,
+				BDFBE7332112942300951EE6 /* Info.plist */,
+			);
+			path = "HAJJ TS";
+			sourceTree = "<group>";
+		};
+		BDFBE73B2112942300951EE6 /* HAJJ TSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBE73C2112942300951EE6 /* HAJJ_TSTests.swift */,
+				BDFBE73E2112942300951EE6 /* Info.plist */,
+			);
+			path = "HAJJ TSTests";
+			sourceTree = "<group>";
+		};
+		BDFBE7462112942300951EE6 /* HAJJ TSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBE7472112942300951EE6 /* HAJJ_TSUITests.swift */,
+				BDFBE7492112942300951EE6 /* Info.plist */,
+			);
+			path = "HAJJ TSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDFBE7232112942200951EE6 /* HAJJ TS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFBE74C2112942300951EE6 /* Build configuration list for PBXNativeTarget "HAJJ TS" */;
+			buildPhases = (
+				0B2124DEE6C8ACE33CF3F148 /* [CP] Check Pods Manifest.lock */,
+				BDFBE7202112942200951EE6 /* Sources */,
+				BDFBE7212112942200951EE6 /* Frameworks */,
+				BDFBE7222112942200951EE6 /* Resources */,
+				0049A55F2AB6D64FF36F6C4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HAJJ TS";
+			productName = "HAJJ TS";
+			productReference = BDFBE7242112942200951EE6 /* HAJJ TS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDFBE7372112942300951EE6 /* HAJJ TSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFBE74F2112942300951EE6 /* Build configuration list for PBXNativeTarget "HAJJ TSTests" */;
+			buildPhases = (
+				32274E8BF286E06CFDBAFDD7 /* [CP] Check Pods Manifest.lock */,
+				BDFBE7342112942300951EE6 /* Sources */,
+				BDFBE7352112942300951EE6 /* Frameworks */,
+				BDFBE7362112942300951EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFBE73A2112942300951EE6 /* PBXTargetDependency */,
+			);
+			name = "HAJJ TSTests";
+			productName = "HAJJ TSTests";
+			productReference = BDFBE7382112942300951EE6 /* HAJJ TSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDFBE7422112942300951EE6 /* HAJJ TSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDFBE7522112942300951EE6 /* Build configuration list for PBXNativeTarget "HAJJ TSUITests" */;
+			buildPhases = (
+				7C276E2E4AFAF27C39DE8831 /* [CP] Check Pods Manifest.lock */,
+				BDFBE73F2112942300951EE6 /* Sources */,
+				BDFBE7402112942300951EE6 /* Frameworks */,
+				BDFBE7412112942300951EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFBE7452112942300951EE6 /* PBXTargetDependency */,
+			);
+			name = "HAJJ TSUITests";
+			productName = "HAJJ TSUITests";
+			productReference = BDFBE7432112942300951EE6 /* HAJJ TSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDFBE71C2112942200951EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Rana Abdulaziz";
+				TargetAttributes = {
+					BDFBE7232112942200951EE6 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					BDFBE7372112942300951EE6 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = BDFBE7232112942200951EE6;
+					};
+					BDFBE7422112942300951EE6 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = BDFBE7232112942200951EE6;
+					};
+				};
+			};
+			buildConfigurationList = BDFBE71F2112942200951EE6 /* Build configuration list for PBXProject "HAJJ TS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDFBE71B2112942200951EE6;
+			productRefGroup = BDFBE7252112942200951EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFBE7232112942200951EE6 /* HAJJ TS */,
+				BDFBE7372112942300951EE6 /* HAJJ TSTests */,
+				BDFBE7422112942300951EE6 /* HAJJ TSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDFBE7222112942200951EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFBE7322112942300951EE6 /* LaunchScreen.storyboard in Resources */,
+				BDFBE7582112965100951EE6 /* Background .png in Resources */,
+				BDFBE72F2112942300951EE6 /* Assets.xcassets in Resources */,
+				BDFBE75A2112968D00951EE6 /* Hajj Ts logo.png in Resources */,
+				BDFBE72D2112942200951EE6 /* Main.storyboard in Resources */,
+				BDFBE75E21129E0400951EE6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFBE7362112942300951EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFBE7412112942300951EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0049A55F2AB6D64FF36F6C4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HAJJ TS/Pods-HAJJ TS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HAJJ TS/Pods-HAJJ TS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B2124DEE6C8ACE33CF3F148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAJJ TS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32274E8BF286E06CFDBAFDD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAJJ TSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C276E2E4AFAF27C39DE8831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HAJJ TSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDFBE7202112942200951EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFBE72A2112942200951EE6 /* ViewController.swift in Sources */,
+				BDFBE75C2112989F00951EE6 /* AlertController.swift in Sources */,
+				BDFBE7282112942200951EE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFBE7342112942300951EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFBE73D2112942300951EE6 /* HAJJ_TSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFBE73F2112942300951EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDFBE7482112942300951EE6 /* HAJJ_TSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDFBE73A2112942300951EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFBE7232112942200951EE6 /* HAJJ TS */;
+			targetProxy = BDFBE7392112942300951EE6 /* PBXContainerItemProxy */;
+		};
+		BDFBE7452112942300951EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDFBE7232112942200951EE6 /* HAJJ TS */;
+			targetProxy = BDFBE7442112942300951EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDFBE72B2112942200951EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFBE72C2112942200951EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDFBE7302112942300951EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDFBE7312112942300951EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDFBE74A2112942300951EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDFBE74B2112942300951EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDFBE74D2112942300951EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B0B3B414A70B532E159798 /* Pods-HAJJ TS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KBHF6M5J9;
+				INFOPLIST_FILE = "HAJJ TS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranaapps.HAJJ-TS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDFBE74E2112942300951EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83297C1A07DD834F02C253FE /* Pods-HAJJ TS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KBHF6M5J9;
+				INFOPLIST_FILE = "HAJJ TS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranaapps.HAJJ-TS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDFBE7502112942300951EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9076F8BDD2AE3184551736 /* Pods-HAJJ TSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KBHF6M5J9;
+				INFOPLIST_FILE = "HAJJ TSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranaapps.HAJJ-TSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HAJJ TS.app/HAJJ TS";
+			};
+			name = Debug;
+		};
+		BDFBE7512112942300951EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9376F9A919FF61A32B569990 /* Pods-HAJJ TSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KBHF6M5J9;
+				INFOPLIST_FILE = "HAJJ TSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranaapps.HAJJ-TSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HAJJ TS.app/HAJJ TS";
+			};
+			name = Release;
+		};
+		BDFBE7532112942300951EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E07F21578C81712B957B0EE /* Pods-HAJJ TSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KBHF6M5J9;
+				INFOPLIST_FILE = "HAJJ TSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranaapps.HAJJ-TSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HAJJ TS";
+			};
+			name = Debug;
+		};
+		BDFBE7542112942300951EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708322F725A2AAD284410190 /* Pods-HAJJ TSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KBHF6M5J9;
+				INFOPLIST_FILE = "HAJJ TSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ranaapps.HAJJ-TSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HAJJ TS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDFBE71F2112942200951EE6 /* Build configuration list for PBXProject "HAJJ TS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFBE74A2112942300951EE6 /* Debug */,
+				BDFBE74B2112942300951EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFBE74C2112942300951EE6 /* Build configuration list for PBXNativeTarget "HAJJ TS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFBE74D2112942300951EE6 /* Debug */,
+				BDFBE74E2112942300951EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFBE74F2112942300951EE6 /* Build configuration list for PBXNativeTarget "HAJJ TSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFBE7502112942300951EE6 /* Debug */,
+				BDFBE7512112942300951EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFBE7522112942300951EE6 /* Build configuration list for PBXNativeTarget "HAJJ TSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDFBE7532112942300951EE6 /* Debug */,
+				BDFBE7542112942300951EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDFBE71C2112942200951EE6 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_HAJJ_TSTests {
+  umbrella header "Pods-HAJJ TSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
